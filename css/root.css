@@ -1,0 +1,10 @@
+:root {
+  --white-color: #ffff;
+  --black-color: #000;
+  --primary-color: #3cb3ab;
+  --disebled-color: #979797;
+  --text-color: #7a7a7a;
+  --main-color: hsl(0, 0%, 97%);
+  --button-color: #147a72;
+  --main-font: "Commissioner", sans-serif;
+}

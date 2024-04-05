@@ -4,17 +4,158 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project</title>
-    <link rel="stylesheet" href="./css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <!-- <link rel="stylesheet" href="./css/style.min.css"> -->
   </head>
   <body>
     <!-- HEADER START -->
-    <header class="header"></header>
+    <header class="header">
+      <div class="header__container container">
+        <!-- logo -->
+        <a class="logo" href="#">
+          <img src="./images/logo.svg" class="logo__img" alt="" />
+        </a>
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">About</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Discover</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Gte Started</a>
+            </li>
+          </ul>
+          <button class="btn-burger">
+            <img src="./images/icon-hamburger.svg" width="16px" height="16px" />
+          </button>
+        </nav>
+      </div>
+    </header>
     <!-- HEADER END -->
 
     <!-- MAIN START -->
-    <main class="main"></main>
+    <main class="main">
+      <div class="hero">
+        <div class="hero-container main-section container">
+          <div class="hero__description">
+            <img src="./images/logo-mastercraft.svg" class="hero__img" alt="" />
+            <h1 class="hero__title">Mastercraft Bamboo Monitor Riser</h1>
+            <p class="hero__subtitle">
+              A beautiful & handcrafted monitor stand to reduce neck and eye
+              strain.
+            </p>
+          </div>
+          <div class="hero__btns">
+            <div>
+              <button class="hero__btns__btn">Back this project</button>
+            </div>
+            <div class="bookmark">
+              <img
+                src="./images/icon-bookmark.svg"
+                class="bookmark__img"
+                alt=""
+              />
+              <span>Bookmark</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="statistic-card main-section container">
+        <div class="statistic-card__items">
+          <div class="statistic-card__item">
+            <h4>$89,914</h4>
+            <p>of $100,000 backed</p>
+          </div>
+          <div class="statistic-card__item">
+            <h4>5,007</h4>
+            <p>total backers</p>
+          </div>
+          <div class="statistic-card__item">
+            <h4>56</h4>
+            <p>days left</p>
+          </div>
+        </div>
+        <div class="statistic-prosenet">
+          <div class="statistic-prosenet__item"></div>
+        </div>
+      </div>
+
+      <div class="about-project main-section container">
+        <div class="about-project__description">
+          <h1 class="about-project__description__title">About this project</h1>
+          <p class="about-project__description__subtitle">
+            The Mastercraft Bamboo Monitor Riser is a sturdy and stylish
+            platform that elevates your screen to a more comfortable viewing
+            height. Placing your monitor at eye level has the potential to
+            improve your posture and make you more comfortable while at work,
+            helping you stay focused on the task at hand.
+          </p>
+          <p class="about-project__description__subtitle">
+            Featuring artisan craftsmanship, the simplicity of design creates
+            extra desk space below your computer to allow notepads, pens, and
+            USB sticks to be stored under the stand.
+          </p>
+        </div>
+
+        <div class="about-project__cards">
+          <div class="about-project__card">
+            <div class="about-project__card__title">
+              <h5>Bamboo Stand</h5>
+              <p>Pledge $25 or more</p>
+            </div>
+            <p class="about-project__card__subtitle">
+              You get an ergonomic stand made of natural bamboo. You've helped
+              us launch our promotional campaign, and you’ll be added to a
+              special Backer member list.
+            </p>
+            <div class="about-project__card__buttons">
+              <h4>101 <span>left</span></h4>
+              <button class="button-card">select revard</button>
+            </div>
+          </div>
+          <div class="about-project__card">
+            <div class="about-project__card__title">
+              <h5>Black Edition Stand</h5>
+              <p>Pledge $75 or more</p>
+            </div>
+            <p class="about-project__card__subtitle">
+              You get an ergonomic stand made of natural bamboo. You've helped
+              us launch our promotional campaign, and you’ll be added to a
+              special Backer member list.
+            </p>
+            <div class="about-project__card__buttons">
+              <h4>64 <span>left</span></h4>
+              <button class="button-card">select revard</button>
+            </div>
+          </div>
+          <div class="about-project__card about-project__card__disebled">
+            <div class="about-project__card__title">
+              <h5>Mahogany Special Edition</h5>
+              <p>Pledge $200 or more</p>
+            </div>
+            <p class="about-project__card__subtitle">
+              You get an ergonomic stand made of natural bamboo. You've helped
+              us launch our promotional campaign, and you’ll be added to a
+              special Backer member list.
+            </p>
+            <div class="about-project__card__buttons">
+              <h4>0 <span>left</span></h4>
+              <button class="button-card disebled-btn">select revard</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <!-- MAIN END -->
 
     <!-- FOOTER START -->
